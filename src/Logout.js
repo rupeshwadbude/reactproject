@@ -16,7 +16,7 @@ export default class Logout extends Component {
         return (
             <div style={{textAlign:'center',marginTop:'20%', fontSize:'30px'}}>
                   <Redirect to ='/' />
-                {/* <Link to='/'   >Login again</Link> */}
+                <Link to='/'   >Login again</Link>
                
             </div>
         )
